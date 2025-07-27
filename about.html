@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Jadula Trading</title>
+  <style>
+    body { background: #000; color: #FFD700; font-family: Arial; text-align: center; padding: 20px; }
+    nav a { color: red; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; color: #FFA500; }
+    form input, form textarea { width: 80%; padding: 10px; margin: 10px auto; display: block; border-radius: 5px; border: none; }
+    form input[type="submit"] { background: red; color: white; font-weight: bold; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Jadula Trading</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="company.html">Company</a>
+  </nav>
+
+  <section>
+    <p>Founded in 2015, Jadula Trading Enterprise delivers trusted service and supply to South Africa's mining and industrial sectors.</p>
+
+    <h2>Contact Us</h2>
+    <p>
+      📍 22 Duncan Street, Witbank 1035<br>
+      ☎️ +27 72 846 8865<br>
+      📧 <a href="mailto:info@jadula.co.za" style="color:#FFD700;">info@jadula.co.za</a>
+    </p>
+
+    <form action="mailto:info@jadula.co.za" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <input type="submit" value="Send Message" />
+    </form>
+  </section>
+</body>
+</html>
